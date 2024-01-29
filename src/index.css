@@ -19,13 +19,14 @@ h2 {
 .primary {
   color: #f72d57;
 }
+.layout{
+  padding: 0 5%;
+  padding-bottom: 10%;
+}
 .logo {
-
-
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
- 
 }
 .button {
   background-color: #f72d57;
@@ -54,6 +55,6 @@ h2 {
   display: inline;
   font-size: 46px;
 }
-.white{
+.white {
   color: white;
 }

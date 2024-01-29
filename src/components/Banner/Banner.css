@@ -1,11 +1,23 @@
-.banner{
-    background-color: white;
-    display: flex;
+.banner {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  padding: 0 5%;
+  filter: drop-shadow(0 4px 3px rgba(167, 138, 138, 0.07));
 }
-.banner-right{
-    flex: 0;
-    
+
+.banner-right img {
 }
-img{
-    width: fit-content;
+.banner-right {
+  margin: auto auto;
+  position: relative;
+}
+.img101 {
+  width: 100%;
+}
+.img102 {
+  width: 50%;
+  position: absolute;
+  left: 0;
 }

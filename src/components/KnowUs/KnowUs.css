@@ -1,2 +1,32 @@
 /* tr:nth-child(even) {background: #fbf1f1}
 tr:nth-child(odd) {background: #ccc} */
+
+h3 {
+  color: #3f3f3f;
+  font-size: 36px;
+  font-style: normal;
+  line-height: normal;
+}
+.grid{
+    display: grid;
+	grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 6rem;
+}
+.flex{
+    display: flex;
+    
+    gap: 4rem;
+}
+.grid img{
+    width: 45%;
+    border-radius: 10px;
+}
+
+.flex-rev{
+    flex-direction: row-reverse;
+}
+.typo{
+    width: 40%;
+    text-align: left;
+    margin: auto auto;
+}

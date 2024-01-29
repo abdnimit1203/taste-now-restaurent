@@ -6,8 +6,11 @@ const Home = () => {
     return (
         <div>
             <Banner/>
+            <div className="layout">
+
             <PopularCategory/>
             <KnowUs/>
+            </div>
         </div>
     );
 };
