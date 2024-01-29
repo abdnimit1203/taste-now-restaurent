@@ -51,4 +51,25 @@
   transform: rotate(-120.309deg);
   position: absolute;
   left: 0;
+  top:15%
+}
+@media screen and (max-width: 768px) {
+    .banner{
+        flex-direction: column;
+        padding-bottom: 10px;
+        gap: 0;
+        margin-bottom: 50px;
+    }
+    .banner::before{
+        
+        transform: translateX(-50%) scale(2)
+       
+    }
+    .banner-text {
+        width: 100%;
+        font-size: 14px;
+      }
+      .banner-header {
+        font-size: 28px;
+      }
 }

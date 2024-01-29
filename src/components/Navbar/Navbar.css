@@ -31,10 +31,50 @@ a {
   font-size: 20px;
   align-items: center;
 }
+#toggle{
+   width: 60px;
+   height: 60px;
+   background-color: rgb(39, 149, 238);
+   cursor: pointer;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#toggle::before{
+    position: absolute;
+    content: '';
+    width: 28px;
+    height: 2px;
+    background: #3F3F3F;
+    transform: translateY(-5px);
+    transition: 0.4s;
+}
 
+#toggle::after{
+    position: absolute;
+    content: '';
+    width: 16px;
+    height: 2px;
+    background: #3F3F3F;
+    transform: translateY(5px);
+    transition: 0.4s;
+}
+#toggle.active::before{
+    transform: translateY(0px) rotate(45deg);
+}
+#toggle.active::after{
+    width: 28px;
+    transform: translateY(0px) rotate(-45deg);
+}
 @media screen and (max-width: 768px) {
     .navlinks{
-        display: none;
-        
+        display: none;  
     } 
+    .navbar{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.068);
+    }
+    .hidden{
+        display: none;
+    }
+   
 }
