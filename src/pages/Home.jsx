@@ -1,8 +1,13 @@
+import Banner from "../components/Banner/Banner";
+import KnowUs from "../components/KnowUs/KnowUs";
+import PopularCategory from "../components/PopularCategory/PopularCategory";
 
 const Home = () => {
     return (
         <div>
-            <h1>Taste Now</h1>
+            <Banner/>
+            <PopularCategory/>
+            <KnowUs/>
         </div>
     );
 };

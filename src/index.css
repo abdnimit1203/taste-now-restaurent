@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&family=Praise&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fcfcfc;
+}
+
+h2 {
+  color: #3f3f3f;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#logo {
+  font-family: "Praise", cursive;
+}
+
+.primary {
+  color: #f72d57;
+}
+.logo {
+ 
+  font-family: Praise;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.button {
+  background-color: #f72d57;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+.sm-btn {
+  width: 140px;
+  height: 34px;
+  font-size: 14px;
+}
+.mid-btn {
+  width: 140px;
+  height: 46px;
+  font-size: 16px;
+}
+.lg-btn {
+  width: 300px;
+  height: 86px;
+  font-size: 24px;
+}
+.icons {
+  display: inline;
+  font-size: 46px;
+}

@@ -1,0 +1,27 @@
+.inactive-links {
+  text-decoration: none;
+}
+.active {
+  text-decoration: underline;
+  color: red;
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+  color: brown;
+}
+.navbar {
+  padding: 0px 5%;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-2 {
+  display: flex;
+  gap: 49px;
+  font-size: 20px;
+  align-items: center;
+}
