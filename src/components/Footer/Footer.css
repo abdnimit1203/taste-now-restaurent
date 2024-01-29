@@ -1,3 +1,35 @@
-footer{
-    background: #F72D57;
+footer {
+  background: #f72d57;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  padding: 3% 5%;
+  color: white;
+}
+.footer-icons {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  justify-content: center;
+  align-items: center;
+  display: inline;
+  padding-right: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footer-icons:hover {
+  scale: 115%;
+}
+.block{
+    display: block;
+    padding-bottom: 4px;
+}
+.block{
+    display: block;
+    padding-bottom: 4px;
+    transition: 0.3s;
+   
+}
+.block:hover{
+    text-decoration: underline;
+  transform: scale(105%);
 }

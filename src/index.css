@@ -20,12 +20,12 @@ h2 {
   color: #f72d57;
 }
 .logo {
- 
-  font-family: Praise;
+
+
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+ 
 }
 .button {
   background-color: #f72d57;
@@ -53,4 +53,7 @@ h2 {
 .icons {
   display: inline;
   font-size: 46px;
+}
+.white{
+  color: white;
 }
