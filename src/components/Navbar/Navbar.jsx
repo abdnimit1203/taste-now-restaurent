@@ -65,9 +65,12 @@ const Navbar = () => {
           </h2>
         </div>
         <div className="nav-2">
+            <div className="navlinks">
+
             {navlinks}
+            </div>
             <MdOutlineShoppingCart className="icons" />
-            <button className="button mid-btn">Sign up</button>
+            <button className="button mid-btn ">Sign up</button>
         </div>
       </nav>
     </div>

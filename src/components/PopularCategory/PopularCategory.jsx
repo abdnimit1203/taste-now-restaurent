@@ -1,6 +1,6 @@
 import "./PopularCategory.css";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import "react-tabs/style/react-tabs.css";
+// import "react-tabs/style/react-tabs.css";
 import { IoPizzaOutline } from "react-icons/io5";
 import { PiHamburgerLight } from "react-icons/pi";
 import { LuSalad } from "react-icons/lu";
@@ -15,32 +15,32 @@ const PopularCategory = () => {
       </h2>
       <div className="mid">
         <Tabs>
-          <TabList>
-            <Tab>
-              <div className="tabs">
-                <IoPizzaOutline />
+          <TabList className={"tabs"}>
+            <Tab >
+              <div className="tab">
+                <IoPizzaOutline  className="tab-icons"/>
                 Pizzas
               </div>
             </Tab>
             <Tab>
-              <div className="tabs">
-              <PiHamburgerLight />
+              <div className="tab">
+              <PiHamburgerLight  className="tab-icons"/>
 
                 Burgers
               </div>
             </Tab>
             <Tab>
-              <div className="tabs">
-              <LuSalad />
+              <div className="tab">
+              <LuSalad  className="tab-icons"/>
 
                 Salads
               </div>
             </Tab>
             <Tab>
-              <div className="tabs">
-              <IoFastFoodOutline />
+              <div className="tab">
+              <IoFastFoodOutline  className="tab-icons"/>
 
-                Pizzas
+                Combos
               </div>
             </Tab>
           </TabList>

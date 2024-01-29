@@ -23,11 +23,43 @@ h3 {
     object-fit: cover;
 }
 
-.flex-rev{
+.grid .flex:nth-child(even){
     flex-direction: row-reverse;
 }
 .typo{
     width: 40%;
     text-align: left;
     margin: auto auto;
+}
+@media screen and (max-width: 768px) {
+    h3 {
+
+        font-size: 22px;
+       
+      }
+      .grid{
+        gap: 2rem;
+      }
+      .flex{
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .grid .flex:nth-child(even){
+        flex-direction: column;
+    }
+    .grid img{
+        width: 100%;
+        border-radius: 10px;
+        height: auto;
+        object-fit: cover;
+    }
+    .typo{
+        width: 100%;
+        text-align: left;
+        margin: auto auto;
+    }
+    h2{
+        font-size: 26px;
+        text-align: center;
+    }
 }

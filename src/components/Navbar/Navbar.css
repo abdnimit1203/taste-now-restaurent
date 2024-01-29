@@ -19,10 +19,22 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-
+.navlinks{
+    display: block;
+    display: flex;
+    gap: 2rem;
+    
+}
 .nav-2 {
   display: flex;
   gap: 2rem;
   font-size: 20px;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .navlinks{
+        display: none;
+        
+    } 
 }

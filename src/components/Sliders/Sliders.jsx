@@ -1,6 +1,6 @@
 import './Sliders.css'
 import { Swiper, SwiperSlide  } from "swiper/react";
-import { FreeMode, Pagination ,Autoplay} from "swiper/modules";
+import { FreeMode, Pagination ,Autoplay,Navigation} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
@@ -27,7 +27,8 @@ const Sliders = () => {
       }}
         
         freeMode={true}
-       
+        slidesPerView={1.5}
+        navigation={true}
         spaceBetween={50}
         pagination={{
           clickable: true,
@@ -38,7 +39,7 @@ const Sliders = () => {
         //   disableOnInteraction: false,
         // }}
         
-        modules={[Autoplay,FreeMode, Pagination]}
+        modules={[Autoplay,FreeMode, Pagination,Navigation]}
         className="mySwiper rounded-xl lg:w-[80%]"
       >
         <SwiperSlide className="slide">

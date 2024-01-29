@@ -19,7 +19,7 @@ const KnowUs = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-rev">
+        <div className="flex ">
           <img src="/public/assets/environment.jpeg" alt="environment" />
           <div className="typo">
             <h3 className="">
