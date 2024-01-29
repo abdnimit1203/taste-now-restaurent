@@ -9,7 +9,7 @@ const KnowUs = () => {
         <div className="flex">
           <img src="/public/assets/teamwork.jpeg" alt="teamwork" />
           <div className="typo">
-            <h3 className="mid">
+            <h3 className="">
               <span className="primary">Teamwork</span> is the key to <br />our sucess
             </h3>
             <p>
@@ -22,7 +22,7 @@ const KnowUs = () => {
         <div className="flex flex-rev">
           <img src="/public/assets/environment.jpeg" alt="environment" />
           <div className="typo">
-            <h3 className="mid">
+            <h3 className="">
               We are all in for the <br />
               <span className="primary"> enviroment</span>
             </h3>

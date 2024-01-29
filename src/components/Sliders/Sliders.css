@@ -1,0 +1,46 @@
+.card-item{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  width: 100%;
+  height: 100%;
+    padding: 20px 0;
+    position: relative;
+    
+  }
+  .slide{
+    background-color: white;
+
+   
+    height: 100%;
+  }
+.card-item img{
+    
+ width: 100%;
+ height: 150px;
+ object-fit: contain;
+    
+}
+  .card-item:hover {
+    box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container-item {
+   
+    height: 100%;
+    padding: 2px 16px;
+  }
+  /* swiper css */
+
+.swiper-wrapper {
+    padding:6px;
+    margin-bottom: 60px !important;
+  }
+  
+  .backgrond-line {
+    background: rgba(28, 96, 163, 0.5);
+    display: inline;
+    padding: 1px;
+  }
+  .swiper-pagination-clickable .swiper-pagination-bullet {
+    background-color: #F72D57 !important;
+  }
