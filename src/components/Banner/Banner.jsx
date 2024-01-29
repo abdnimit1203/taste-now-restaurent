@@ -3,10 +3,10 @@ const Banner = () => {
   return (
     <div className="banner">
       <div className="banner-left">
-        <h2 className="banner-header">
+        <h1 className="banner-header">
           Experience food <br />
           <span className="primary">Delivery</span> like no other
-        </h2>
+        </h1>
         <p className="banner-text">
           We deliver the food of your choice wherever, whenever. Select your
           food from only the top restaurants in the area, and get it in a flash.

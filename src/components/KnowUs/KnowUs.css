@@ -14,12 +14,13 @@ h3 {
 }
 .flex{
     display: flex;
-    
     gap: 4rem;
 }
 .grid img{
     width: 45%;
     border-radius: 10px;
+    height: auto;
+    object-fit: cover;
 }
 
 .flex-rev{

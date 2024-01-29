@@ -12,6 +12,7 @@ a {
 }
 .navbar {
   padding: 0px 5%;
+  background: white;
 }
 .nav-items {
   display: flex;
@@ -21,7 +22,7 @@ a {
 
 .nav-2 {
   display: flex;
-  gap: 49px;
+  gap: 2rem;
   font-size: 20px;
   align-items: center;
 }
