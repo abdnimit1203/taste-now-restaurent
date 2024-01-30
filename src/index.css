@@ -16,6 +16,12 @@ h2 {
   font-weight: 600;
   line-height: normal;
 }
+button:focus{
+  outline: none;
+}
+button{
+  cursor: pointer;
+}
 #logo {
   font-family: "Praise", cursive;
 }

@@ -1,6 +1,6 @@
 # Taste Now
 
-- [Live Server Link ](https://www.google.com/)
+- [Live Server Link ](https://taste-now-ab-client.netlify.app/)
 
 Taste Now is restraunt with  **Food delivery** service website.
 
