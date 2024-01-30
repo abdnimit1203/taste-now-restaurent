@@ -7,7 +7,7 @@ const KnowUs = () => {
       </h2>
       <div className="grid">
         <div className="flex">
-          <img src="/public/assets/teamwork.jpeg" alt="teamwork" />
+          <img src="/assets/teamwork.jpeg" alt="teamwork" />
           <div className="typo">
             <h3 className="">
               <span className="primary">Teamwork</span> is the key to <br />our sucess
@@ -20,7 +20,7 @@ const KnowUs = () => {
           </div>
         </div>
         <div className="flex ">
-          <img src="/public/assets/environment.jpeg" alt="environment" />
+          <img src="/assets/environment.jpeg" alt="environment" />
           <div className="typo">
             <h3 className="">
               We are all in for the <br />

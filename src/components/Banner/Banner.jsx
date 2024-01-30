@@ -14,8 +14,8 @@ const Banner = () => {
         </p>
       </div>
       <div className="banner-right">
-        <img src="/public/assets/banner1.png" alt="banner101" className="img101" />
-        <img src="/public/assets/banner102.png" alt="banner102" className="img102" />
+        <img src="/assets/banner1.png" alt="banner101" className="img101" />
+        <img src="/assets/banner102.png" alt="banner102" className="img102" />
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { useState } from "react";
@@ -78,7 +78,6 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <nav className="nav-items">
-        
         <div className="nav-1">
           <div
             id="toggle"
@@ -98,11 +97,20 @@ const Navbar = () => {
         </div>
       </nav>
       <div id="drawer">
-        <h2 id="logo" className="white logo">
-            Taste now
-          </h2>
-          {navlinks}
-          </div>
+        <Link to={'/'}>
+        <h2 id="logo" className="white menu-logo">
+          Taste now
+        </h2>
+        </Link>
+        <div className="drawer-navs">
+
+        {navlinks}
+        </div>
+        <div  className="menu-button">
+
+        <button>Sign up</button>
+        </div>
+      </div>
     </div>
   );
 };

@@ -41,7 +41,7 @@
   padding: 2px 16px;
 }
 .rating {
-  background-image: url("/public//assets/rating.svg");
+  background-image: url("//assets/rating.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;

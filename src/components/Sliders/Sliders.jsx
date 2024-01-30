@@ -44,7 +44,7 @@ const Sliders = () => {
       >
         <SwiperSlide className="slide">
         <div className="card-item">
-            <img src="/public/assets/pizza1.png" alt="pizza" width={"100%"} />
+            <img src="/assets/pizza1.png" alt="pizza" width={"100%"} />
             <div className="container-item">
               <h4>
                 <b>Pepperoni Pizza</b>
@@ -64,7 +64,7 @@ const Sliders = () => {
         </SwiperSlide>
         <SwiperSlide className="  ">
         <div className="card-item">
-            <img src="/public/assets/pizza2.png" alt="pizza" width={"100%"} />
+            <img src="/assets/pizza2.png" alt="pizza" width={"100%"} />
             <div className="container-item">
               <h4>
                 <b>Pepperoni Pizza</b>
@@ -84,7 +84,7 @@ const Sliders = () => {
         </SwiperSlide>
         <SwiperSlide className="  ">
         <div className="card-item">
-            <img src="/public/assets/pizza3.png" alt="pizza" width={"100%"} />
+            <img src="/assets/pizza3.png" alt="pizza" width={"100%"} />
             <div className="container-item">
               <h4>
                 <b>Vegetarian Pizza</b>
@@ -105,7 +105,7 @@ const Sliders = () => {
         </SwiperSlide>
         <SwiperSlide className="  ">
         <div className="card-item">
-            <img src="/public/assets/pizza4.png" alt="pizza" width={"100%"} />
+            <img src="/assets/pizza4.png" alt="pizza" width={"100%"} />
             <div className="container-item">
               <h4>
                 <b>Mediterranean Pizza</b>
@@ -125,7 +125,7 @@ const Sliders = () => {
         </SwiperSlide>
         <SwiperSlide className="  ">
         <div className="card-item">
-            <img src="/public/assets/pizza1.png" alt="pizza" width={"100%"} />
+            <img src="/assets/pizza1.png" alt="pizza" width={"100%"} />
             <div className="container-item">
               <h4>
                 <b>Pepperoni Pizza</b>
@@ -145,7 +145,7 @@ const Sliders = () => {
         </SwiperSlide>
         <SwiperSlide className="  ">
         <div className="card-item">
-            <img src="/public/assets/pizza2.png" alt="pizza" width={"100%"} />
+            <img src="/assets/pizza2.png" alt="pizza" width={"100%"} />
             <div className="container-item">
               <h4>
                 <b>Pepperoni Pizza</b>
@@ -165,7 +165,7 @@ const Sliders = () => {
         </SwiperSlide>
         <SwiperSlide className="  ">
         <div className="card-item">
-            <img src="/public/assets/pizza3.png" alt="pizza" width={"100%"} />
+            <img src="/assets/pizza3.png" alt="pizza" width={"100%"} />
             <div className="container-item">
               <h4>
                 <b>Vegetarian Pizza</b>
@@ -186,7 +186,7 @@ const Sliders = () => {
         </SwiperSlide>
         <SwiperSlide className="  ">
         <div className="card-item">
-            <img src="/public/assets/pizza4.png" alt="pizza"  />
+            <img src="/assets/pizza4.png" alt="pizza"  />
             <div className="container-item">
               <h4>
                 <b>Mediterranean Pizza</b>
